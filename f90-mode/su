@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: Cheng Tan  <noinil@gmail.com>
+# name: subroutine ... end subroutine ...
+# key: su
+# --
+subroutine ${1:name} (${2:arg})
+  implicit none
+  ${3:real}, intent(in) :: $2
+
+  $0
+end subroutine $1

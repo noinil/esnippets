@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: deallocate
+# key: dealloc
+# --
+deallocate ( $0 )

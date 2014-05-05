@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: integer parameter
+# key: ip
+# --
+integer, parameter :: $0

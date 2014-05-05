@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: Cheng Tan <noinil@gmail.com>
+# name : if then end if
+# --
+if ( ${1:condition} ) then
+   $0
+end if

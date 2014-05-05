@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: allocate
+# key: alloc
+# --
+allocate ( ${1:name}($0) )

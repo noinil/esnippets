@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: complex allocatable
+# key: cxa
+# --
+complex, allocatable :: $0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: real parameter
+# key: rp
+# --
+real, parameter :: $0

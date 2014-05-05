@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: real allocatable
+# key: ra
+# --
+real, allocatable :: $0

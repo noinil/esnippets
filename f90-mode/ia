@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: integer allocatable
+# key: ia
+# --
+integer, allocatable :: $0

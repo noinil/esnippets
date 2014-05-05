@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# contributor: Cheng Tan <noinil@gmail.com>
+# name : read (*,*)
+# --
+read (${1:*},${2:*}) $0

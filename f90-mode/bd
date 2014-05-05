@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Cheng Tan <noinil@gmail.com>
+# name : block data
+# --
+block data ${1:name}
+  ${2:implicit none}
+  $0
+end block data $1

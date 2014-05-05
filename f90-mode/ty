@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Cheng Tan <noinil@gmail.com>
+# name: type ... end type ...
+# key: ty
+# --
+type :: ${1:name}
+  $0
+end type $1
