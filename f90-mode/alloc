@@ -2,4 +2,8 @@
 # name: allocate
 # key: alloc
 # --
-allocate ( ${1:name}($0) )
+allocate ( ${1:name}, stat=${2:err} )
+if ($2 /= 0) then
+  write (*, *) "Out of memory!"
+  $0
+end if

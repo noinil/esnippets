@@ -2,4 +2,4 @@
 # name: intent(out)
 # key: fio
 # --
-${1:integer}, intent(${2:out}) $0
+${1:integer}, intent(${2:out}) :: $0

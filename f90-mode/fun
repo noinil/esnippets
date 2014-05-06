@@ -3,11 +3,10 @@
 # name: function ... end function ...
 # key: fun
 # --
-function ${1:name} (${2:arg})
+${1:integer} function ${2:name} (${3:arg})
   implicit none
-  ${3:real} :: $1
-  ${4:real}, intent(in) :: $2
+  ${4:real}, intent(in) :: $3
 
   $0
 
-end function $1
+end function $2
