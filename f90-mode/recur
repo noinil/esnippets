@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # contributor: Cheng Tan  <noinil@gmail.com>
 # name: recursive ... function ...
-# key: su
+# key: recur
 # --
 recursive ${1:integer} function ${2:name} (${3:arg}) result (${4:ans})
   implicit none

@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # contributor: Cheng Tan  <noinil@gmail.com>
 # name: function ... end function ...
-# key: function
+# key: fun
 # --
 function ${1:name} (${2:arg})
   implicit none
