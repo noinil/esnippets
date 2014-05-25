@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: cout
-# key: cout
+# name: cout_short
+# key: couts
 # --
 cout << ${1:string} $0<< endl;
