@@ -1,0 +1,54 @@
+# -*- mode: snippet -*-
+# key: beamer
+# name: \documentclass{beamer} ...
+# --
+\documentclass[xetex,9pt]{beamer}
+% Class options include: notes, notesonly, handout, trans, hidesubsections,
+% shadesubsections, inrow, blue, red, grey, brown
+
+\input{include/packages.tex}
+\input{include/settings.tex}
+\graphicspath{{figures/}}
+
+\mode<presentation>
+
+% ==============================================================================
+% THEME
+% ==============================================================================
+% Theme for beamer presentation.
+
+\usetheme{Ilmenau}
+\usecolortheme{orchid}
+
+% put page numbers
+% \setbeamertemplate{footline}[frame number]{}
+% remove navigation symbols
+% \setbeamertemplate{navigation symbols}{}
+
+% ==============================================================================
+% TITLE
+% ==============================================================================
+\title{${1:Presentation Title}}
+\author{${2:Author Name}}
+\institute{Department of Biophysics, Kyoto University}
+\date{\today}
+
+\begin{document}
+
+\frame[plain]{\titlepage}
+
+\begin{frame}[plain]{Outline}
+  \tableofcontents
+\end{frame}
+
+% ==============================================================================
+% INTRODUCTION
+% ==============================================================================
+
+\section{${3:Introduction}}
+\begin{frame}{${4:Frame Title}}
+
+\end{frame}
+
+
+\end{document}
