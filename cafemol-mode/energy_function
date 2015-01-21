@@ -16,6 +16,7 @@ i_go_atom_dna         = 1
 i_output_energy_style = ${9:0}
 i_coef_from_ninfo     = 0
 i_temp_independent    = 0
+i_aniso_exv_radii     = ${10:1}
 
 ** i_flp = 1
 ** MULTIGO_SYSTEM(1a)   1a/1a

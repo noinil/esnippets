@@ -6,10 +6,11 @@
 ** electrostatic
 **************************************************************
 <<<< electrostatic
-cutoff_ele     = ${1:20.0}
-ionic_strength = ${2:0.15}
-diele_water    = 78.0
-i_diele        = ${3:1}
+cutoff_ele           = ${1:20.0}
+ionic_strength       = ${2:0.15}
+diele_water          = 78.0
+i_diele              = ${3:1}
+dna2_phos_pro_charge = ${4:-1.0}
 ** i_calc_method = 0
 ** CHARGE_TYPE LYS  1.5
 ** CHARGE_TYPE GLU  -0.8
