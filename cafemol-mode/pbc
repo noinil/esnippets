@@ -2,6 +2,9 @@
 # name: periodic boundary condition
 # key: pbc
 # --
+**************************************************************
+** periodic boundary condition
+**************************************************************
 <<<< periodic_bound
 psizex = ${1:100.0}
 psizey = ${2:100.0}
