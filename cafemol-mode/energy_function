@@ -1,0 +1,25 @@
+# -*- mode: snippet -*-
+# name: energy function
+# key: ene
+# --
+**************************************************************
+** energy_function
+**************************************************************
+<<<< energy_function
+LOCAL(${1:1})            ${2:L_AICG2_PLUS}
+LOCAL(${3:2-3})          ${4:L_DNA2}
+NLOCAL(${5:1/1})         ${6:AICG2 EXV ELE}
+NLOCAL(${7:2-3/2-3})     ${8:DNA2 ELE}
+i_use_atom_protein    = 0
+i_use_atom_dna        = 0
+i_go_atom_dna         = 1
+i_output_energy_style = ${9:0}
+i_coef_from_ninfo     = 0
+i_temp_independent    = 0
+
+** i_flp = 1
+** MULTIGO_SYSTEM(1a)   1a/1a
+** MULTIGO_SYSTEM(1b)   1b/1b
+** MULTIGO_SYSTEM(1a)    2a/2a  3a/3a  2a/3a
+** MULTIGO_SYSTEM(1b)    2b/2b  3b/3b  2b/3b
+>>>>

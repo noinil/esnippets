@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: initial struct
+# key: init
+# --
+**************************************************************
+** initial_struct (required when "i_initial_state = 3")
+**************************************************************
+<<<< initial_struct
+${1:1-2}   ${2:part1}.pdb
+>>>>

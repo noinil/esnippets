@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: new_block
+# key: blk
+# --
+<<<< ${1:new_block_name}
+${0:var}
+>>>>

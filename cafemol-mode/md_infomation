@@ -1,0 +1,42 @@
+# -*- mode: snippet -*-
+# name: md_infomation
+# key: md
+# --
+**************************************************************
+** md_information
+**************************************************************
+<<<< md_information
+n_step_sim        = 1
+n_tstep(1)        = ${1:10000000}
+tstep_size        = ${2:0.1}
+n_step_save       = ${3:1000}
+n_step_rst        = 10000
+n_step_neighbor   = ${4:1000}
+
+tempk             = ${5:300.0}
+** tempk_ref      = 300.0
+
+i_rand_type       = 0
+n_seed            = -1
+
+i_com_zeroing_ini = ${6:1}
+i_com_zeroing     = 0
+i_no_trans_rot    = 0
+
+i_redef_para      = 1
+i_implig          = 0
+i_energy_para     = 0
+i_neigh_dist      = 0
+i_mass            = 0
+i_fric            = 0
+i_mass_fric       = 0
+i_del_int         = 0
+i_anchor          = 0
+i_rest1d          = 0
+i_bridge          = 0
+i_pulling         = 0
+i_fix             = 0
+i_in_box          = 0
+i_in_cap          = 0
+i_modified_muca   = 0
+>>>>

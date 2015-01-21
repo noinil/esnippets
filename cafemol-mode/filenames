@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: filenames
+# key: file
+# --
+**************************************************************
+** filenames (required)
+**************************************************************
+<<<< filenames
+path         = ${1:./}
+filename     = ${2:basename}
+OUTPUT ${3:pdb dcd psf rst} ${4:crd velo vdcd movie}
+
+path_pdb     = ${5:./pdb}
+path_ini     = ${6:./pdb}
+path_natinfo = ${7:./ninfo}
+path_para    = ${8:./para}
+path_aicg    = ${9:./aicg}
+** path_msf  = ./msf
+>>>>

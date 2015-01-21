@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: periodic boundary condition
+# key: pbc
+# --
+<<<< periodic_bound
+psizex = ${1:100.0}
+psizey = ${2:100.0}
+psizez = ${3:100.0}
+>>>>

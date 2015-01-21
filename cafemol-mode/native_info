@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: native info
+# key: natinfo
+# --
+****************************************************************
+** native_info_sim (required when "i_go_native_read_style = 2")
+****************************************************************
+<<<< native_info_sim1
+NINFO(${1:1/1}) ${2:1}
+NINFO(${3:2/2}) ${4:2}
+${2} = ${5:part1.ninfo}
+${4} = ${6:part2.ninfo}
+>>>>

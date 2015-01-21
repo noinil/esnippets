@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: job_cntl
+# key: job
+# --
+**************************************************************
+** job_cntl
+**************************************************************
+<<<< job_cntl
+i_run_mode      = ${1:2}
+i_simulate_type = ${2:1}
+i_initial_state = ${3:2}
+i_initial_velo  = ${4:0}
+i_periodic      = ${5:0}
+>>>>

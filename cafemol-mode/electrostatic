@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: electrostatic
+# key: ele
+# --
+**************************************************************
+** electrostatic
+**************************************************************
+<<<< electrostatic
+cutoff_ele     = ${1:20.0}
+ionic_strength = ${2:0.15}
+diele_water    = 78.0
+i_diele        = ${3:1}
+** i_calc_method = 0
+** CHARGE_TYPE LYS  1.5
+** CHARGE_TYPE GLU  -0.8
+** CHARGE_DEL 2-4 u 51-120
+** CHARGE_ADD 3   u 89-93
+** CHARGE_CHANGE imp(integer) value(real)
+** CHARGE_CHANGE 100 0.500
+>>>>

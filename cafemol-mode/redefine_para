@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: redefine_para
+# key: redefine
+# --
+**************************************************************
+** redefine_para
+**************************************************************
+<<<< redefine_para
+rneighbor_dist = ${1:24.0}
+cdist_rep12    = ${2:4.0}
+fric_const     = ${3:0.02}
+>>>>
