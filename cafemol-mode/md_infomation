@@ -11,7 +11,7 @@ n_tstep(1)        = ${1:10000000}
 tstep_size        = ${2:0.1}
 n_step_save       = ${3:1000}
 n_step_rst        = 10000
-n_step_neighbor   = ${4:1000}
+n_step_neighbor   = ${4:100}
 
 tempk             = ${5:300.0}
 ** tempk_ref      = 300.0
