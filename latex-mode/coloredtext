@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: coloredtext
+# key: clr
+# --
+{\color{$1} $0}
