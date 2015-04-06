@@ -2,4 +2,4 @@
 # name: coloredtext
 # key: clr
 # --
-{\color{$1} $0}
+{\color{${1:red}} $0}
