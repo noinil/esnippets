@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: math
+# key: cmath
+# --
+#include <cmath>
+$0
