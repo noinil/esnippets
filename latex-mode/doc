@@ -1,0 +1,26 @@
+# -*- mode: snippet -*-
+# key: doc
+# name: documentclass
+# --
+\documentclass[a4paper,${1:notitlepage}]{${2:article}}
+
+\input{include/packages.tex}
+\input{include/settings.tex}
+
+% ==============================================================================
+% TITLE
+% ==============================================================================
+\title{${3:Title}}
+\author{${4:Cheng Tan}}
+\institute{${5:Department of Biophysics, Kyoto University}}
+\date{\today}
+
+% ==============================================================================
+% DOCUMENT BODY
+% ==============================================================================
+
+\begin{document}
+\maketitle
+
+$0
+\end{document}
