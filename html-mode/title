@@ -1,0 +1,7 @@
+# contributor : Cheng Tan <noinil@gmail.com>
+# name : title of the page
+# key: ttl
+# --
+<head>
+  <title>$0</title>
+</head>
