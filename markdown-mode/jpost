@@ -1,0 +1,11 @@
+# name : jekyll post
+# contributor : Cheng Tan <noinil@gmail.com>
+# key : jpost
+# --
+---
+layout: post
+title: ${1:Title}
+tags: [$2]
+categories: [$3]
+description: $0
+---
