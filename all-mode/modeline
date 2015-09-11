@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: magic mode line for Emacs
+# key: emmm
+# --
+# -*- mode: $0 -*-

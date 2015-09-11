@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: output to terminal with color
+# key: colout
+# --
+[0;3${1:0};${2:1}m$0[0m

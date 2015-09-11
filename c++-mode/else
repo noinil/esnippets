@@ -1,6 +1,8 @@
-#name : else { ... }
+# -*- mode: snippet -*-
+# name : else { ... }
 # key: else
 # --
 else {
     $0
 }
+

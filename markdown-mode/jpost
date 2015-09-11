@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : jekyll post
 # contributor : Cheng Tan <noinil@gmail.com>
 # key : jpost
@@ -9,3 +10,4 @@ tags: [$2]
 categories: [$3]
 description: $0
 ---
+
