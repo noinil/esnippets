@@ -6,14 +6,13 @@
 #+AUTHOR: ${2:Cheng Tan}
 #+EMAIL: ${3:noinil@gmail.com}
 #+CREATOR: ${4:Emacs Org-mode}
-#+DATE: ${5:2015-04-17}
-#+DESCRIPTION: ${6:Whatever.}
-#+KEYWORDS: ${7:A; B; C.}
-#+LANGUAGE: ${8:zh}
+#+DATE: ${5:2015}-${6:11}-${7:17}
+#+DESCRIPTION: ${8:Whatever.}
+#+KEYWORDS: ${9:A; B; C.}
+#+LANGUAGE: ${10:zh}
 
 #+OPTIONS: H:4
 #+OPTIONS: toc:2
 #+STARTUP: showall indent
-#+STARTUP: hidestars
 
 $0
