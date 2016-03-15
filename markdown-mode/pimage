@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name : pelican image
+# contributor : Cheng Tan <noinil@gmail.com>
+# key : pimg
+# --
+![${1:Alt text.}]({filename}${2:path/to/image})

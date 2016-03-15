@@ -10,5 +10,6 @@ Tags: ${2:pelican, publishing}
 Slug: post-${3:post-name}
 Authors: Cheng Tan
 Summary: ${4:Short version for index and feeds}
+Status: ${5:draft}
 
 $0
