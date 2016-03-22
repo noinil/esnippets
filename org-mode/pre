@@ -6,10 +6,10 @@
 #+AUTHOR: ${2:Cheng Tan}
 #+EMAIL: ${3:noinil@gmail.com}
 #+CREATOR: ${4:Emacs Org-mode}
-#+DATE: ${5:2015}-${6:11}-${7:17}
-#+DESCRIPTION: ${8:Whatever.}
-#+KEYWORDS: ${9:A; B; C.}
-#+LANGUAGE: ${10:zh}
+#+DATE: `(format-time-string "%Y-%m-%d %H:%M")`
+#+DESCRIPTION: ${5:Whatever.}
+#+KEYWORDS: ${6:A; B; C.}
+#+LANGUAGE: ${7:zh}
 
 #+OPTIONS: H:4
 #+OPTIONS: toc:2
