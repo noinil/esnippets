@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name : <link stylesheet="..." />
+# key : link.sty
+# group: html
+# --
+<link rel="${1:stylesheet}" href="${2:url}.css" />

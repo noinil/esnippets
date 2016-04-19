@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name : <link rel="import" />
+# key : link.imp
+# group: html
+# --
+<link rel="import" href="${1:url}" />

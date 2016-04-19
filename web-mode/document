@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name : template for html5 doc
-# key : template
+# key : document
 # group: html
 # --
 <!DOCTYPE html>
