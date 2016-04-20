@@ -3,4 +3,4 @@
 # key : link.sty
 # group: html
 # --
-<link rel="${1:stylesheet}" href="${2:url}.css" />
+<link rel="${1:stylesheet}" href="${2:url}.css" media="${3:screen}" />
