@@ -3,13 +3,13 @@
 # contributor : Cheng Tan <noinil@gmail.com>
 # key : ppost
 # --
-Title: Post Title
+Title: ${1:Post Title}
 Date: `(format-time-string "%Y-%m-%d %H:%M")`
-Category: ${1:Python}
-Tags: ${2:pelican, publishing}
-Slug: post-${3:post-name}
+Category: ${2:Python}
+Tags: ${3:pelican, publishing}
+Slug: post-${4:post-name}
 Authors: Cheng Tan
-Summary: ${4:Short version for index and feeds}
-Status: ${5:draft}
+Summary: ${5:Short version for index and feeds}
+Status: ${6:draft}
 
 $0
