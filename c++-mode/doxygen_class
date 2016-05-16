@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name : doxygen class documentation
+# key : do-c
+# group: doxygen
+# --
+/*!
+************************************************************
+@brief ${1:Brief descriptions here.}
+
+$0
+
+${2:@todo $3}
+************************************************************
+*/
