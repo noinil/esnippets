@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: cout_short
-# key: couts
-# --
-cout << ${1:string} $0<< endl;
