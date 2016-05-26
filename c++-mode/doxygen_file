@@ -4,7 +4,6 @@
 # group: doxygen
 # --
 /*!
-************************************************************
 @file ${1:`(file-name-nondirectory (buffer-file-name))`}
 @brief ${2:Brief descriptions here.}
 
@@ -13,5 +12,4 @@ $0
 @author Cheng Tan (noinil@gmail.com)
 @date `(format-time-string "%Y-%m-%d %H:%M")`
 @copyright GNU Public License V3.0
-************************************************************
 */
