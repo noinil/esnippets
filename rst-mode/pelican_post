@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name : pelican post
+# contributor : Cheng Tan <noinil@gmail.com>
+# expand-env: ((yas-indent-line 'fixed))
+# key : ppost
+# --
+${1:$(make-string (string-width yas-text) ?\=)}
+${1:Title}
+${1:$(make-string (string-width yas-text) ?\=)}
+
+:date: `(format-time-string "%Y-%m-%d %H:%M")`
+:category: ${2:Python}
+:tags: ${3:pelican, publishing}
+:slug: post-${4:post-name}
+:authors: Cheng Tan
+:summary: ${5:Short version for index and feeds}
+:status: ${6:draft}
+
+$0
