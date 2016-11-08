@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: table-of-contents
+# key: toc
+# --
+\setcounter{tocdepth}{${1:2}}
+\tableofcontents

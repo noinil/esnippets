@@ -2,4 +2,4 @@
 # name: boldsymbol
 # key: bol
 # --
-\boldsymbol{$1}
+\boldsymbol{$1} $0
