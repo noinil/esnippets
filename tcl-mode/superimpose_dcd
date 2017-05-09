@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: superimpose_dcd
+# key: spdcd
+# --
+
+set $all [atomselect ${1:0} "${2:all}"]
+set $part [atomselect $1 "$3"]
+set $refconf [atomselect $1 "$3" frame ${4:0}]
+
+set nf [molinfo $1 get numframes]
+for { set i 0 } { \$i <= \$nf } { inc i } {
+    \$all frame \$i
+    \$part frame \$i
+    \$all move [measure fit \$part \$refconf]
+}

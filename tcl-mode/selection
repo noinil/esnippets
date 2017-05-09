@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: set new selection
+# key: sel
+# --
+set $1 [atomselect ${2:0} "$0"]

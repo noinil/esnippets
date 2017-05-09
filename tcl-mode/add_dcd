@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: add dcd
+# key: dcd
+# --
+mol addfile $1.dcd waitfor all
+
+$0
