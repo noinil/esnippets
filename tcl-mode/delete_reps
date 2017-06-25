@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: delete representation
+# key: delrep
+# --
+
+# delete all reps
+set ctnumrep [molinfo ${1:0} get numreps]
+for { set i 0 } { \$i < \$ctnumrep } { incr i } {
+	mol delrep \$i $1
+}
