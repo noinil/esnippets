@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: smooth representaion
+# key: smooth
+# --
+
+mol smoothrep ${1:molid} ${2:repid} ${3:5}
+$0
