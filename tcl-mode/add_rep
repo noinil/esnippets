@@ -7,4 +7,5 @@
 mol material ${1:Diffuse}
 mol representation ${2:VDW 2.5 25.0}
 mol color ColorID ${3:7}
-mol selection "${4}"
+mol selection "${4:selection}"
+mol addrep ${5:0}
