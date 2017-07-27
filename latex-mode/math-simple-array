@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: math-simple-array
+# key: marr
+# group: math
+# --
+${1:1}, \ldots, ${2:n}$0

@@ -2,4 +2,4 @@
 # name: boldsymbol
 # key: bm
 # --
-\bm{$1} $0
+\bm{$1}$0

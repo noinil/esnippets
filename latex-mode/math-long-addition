@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: math-long-add
+# key: mladd
+# group: math
+# --
+${1:a}_1 + \cdots + $1_${2:m}$0
