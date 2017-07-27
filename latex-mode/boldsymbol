@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: boldsymbol
-# key: bol
+# key: bm
 # --
-\boldsymbol{$1} $0
+\bm{$1} $0
