@@ -3,4 +3,4 @@
 # key: mvarr
 # group: math
 # --
-$\bm{${1:a}}_1, \ldots, \bm{$1}_${2:m}$0
+\bm{${1:a}}_1, \ldots, \bm{$1}_${2:m}

@@ -3,4 +3,4 @@
 # key: marray
 # group: math
 # --
-${1:a}_1, \ldots, $1_${2:m}$0
+${1:a}_1, \ldots, $1_${2:m}
