@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: math-inner-product
+# key: mip
+# group: math
+# --
+\langle ${1:\bm{$2}}, ${3:\bm{$4}} \rangle
