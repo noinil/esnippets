@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: math-dx
+# key: mdx
+# group: math
+# --
+\mathrm{d}${1:x} 
