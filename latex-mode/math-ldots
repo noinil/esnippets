@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: math-ldots
+# key: m...
+# group: math
+# --
+\ldots

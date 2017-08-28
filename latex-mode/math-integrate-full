@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: math-integrate-full
+# key: integrate
+# group: math
+# --
+\int_{$1}^{$2} $4 \, \mathrm{d}${3:x}

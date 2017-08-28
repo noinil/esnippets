@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: math-cdots
+# key: m---
+# group: math
+# --
+\cdots
