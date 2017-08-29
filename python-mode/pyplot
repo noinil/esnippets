@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: pyplot
-# key: implt
-# group : general
-# --
-import matplotlib.pyplot as plt
-$0
