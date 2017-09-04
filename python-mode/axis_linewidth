@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: axis format
-# key: axx
+# key: axlw
 # group : matplotlib
 # --
 for ax_line in ['top', 'bottom', 'left', 'right']:

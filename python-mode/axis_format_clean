@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: axis format clean
+# key: axnull
+# group : matplotlib
+# --
+${1:ax}.xaxis.set_major_formatter(ticker.NullFormatter())
+$1.xaxis.set_minor_formatter(ticker.NullFormatter())
+$1.yaxis.set_major_formatter(ticker.NullFormatter())
+$1.yaxis.set_minor_formatter(ticker.NullFormatter())
