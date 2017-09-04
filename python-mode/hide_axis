@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: hide axis
+# key: hideaxis
+# group : matplotlib
+# --
+${1:ax}.spines["${2:$$(yas/choose-value '("top" "bottom" "left" "right"))}"].set_visible(False)

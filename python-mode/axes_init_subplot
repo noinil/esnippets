@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: axes creation from subplot
+# key: subax
+# group : matplotlib
+# --
+${1:ax} = plt.subplot(${2:nrows}, ${3:ncols}, ${4:plot_number})

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: import matplotlib.ticker
+# key: imptic
+# group : general
+# --
+import matplotlib.ticker as ticker

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: axis format
+# key: axx
+# group : matplotlib
+# --
+for ax_line in ['top', 'bottom', 'left', 'right']:
+    ${1:ax}.spines[ax_line].set_linewidth(${2:2})

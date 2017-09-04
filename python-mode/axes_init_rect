@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: axes creation from rect
+# key: rectax
+# group : matplotlib
+# --
+${1:rect} = [${2:left}, ${3:botomm}, ${4:width}, ${5:height}]
+${6:ax} = plt.axes($1, facecolor='w') $>
