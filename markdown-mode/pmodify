@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name : pelican modified
-# contributor : Cheng Tan <noinil@gmail.com>
-# key : pmod
-# --
-Modified: `(format-time-string "%Y-%m-%d %H:%M")`

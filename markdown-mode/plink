@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name : pelican link
-# contributor : Cheng Tan <noinil@gmail.com>
-# key : plink
-# --
-[${1:Link info.}]({filename}${2:path/to/link})

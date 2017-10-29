@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name : pelican image in HTML
-# contributor : Cheng Tan <noinil@gmail.com>
-# key : phimg
-# --
-<img src="/images/${1:a.png}" alt="${2:Drawing}" style="width: ${3:500}px;"/>
