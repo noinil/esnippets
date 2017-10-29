@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name : markdown panel for mdwiki (bootstrap)
+# contributor : Cheng Tan <noinil@gmail.com>
+# expand-env: ((yas-indent-line 'fixed)
+# group: mdwiki
+# key : mdw-pnl
+# --
+<div class="panel panel-${1:$$(yas-choose-value '("primary" "muted" "sucess" "info" "warning" "danger"))}">
+  <div class="panel-heading">${2:Panel Header}</div>
+  <div class="panel-body">${3:Panel Content}</div>
+</div>
+$0

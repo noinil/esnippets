@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name : markdown font color for mdwiki (bootstrap)
+# contributor : Cheng Tan <noinil@gmail.com>
+# group: mdwiki
+# key : mdw-fc
+# --
+<${1:span} class="text-${2:$$(yas-choose-value '("primary" "muted" "sucess" "info" "warning" "danger"))}">$0</$1>
