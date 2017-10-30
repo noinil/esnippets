@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name : markdown inline math for mdwiki (bootstrap)
+# contributor : Cheng Tan <noinil@gmail.com>
+# group: mdwiki
+# key : i$
+# --
+\\\\( $1 \\\\) $0

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name : markdown alert for mdwiki (bootstrap)
+# contributor : Cheng Tan <noinil@gmail.com>
+# group: mdwiki
+# key : mdw-alert
+# --
+<div class="alert alert-${1:$$(yas-choose-value '("primary" "secondary" "sucess" "info" "warning" "danger" "light" "dark"))}" role="alert">
+  $2
+</div>
+$0
