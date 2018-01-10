@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: tick parameters
+# key: tickparams
+# group : matplotlib
+# --
+${1:ax}.tick_params(axis='${2:both}', direction='${3:out}', length=$4, width=$5, colors='${6:k}')
