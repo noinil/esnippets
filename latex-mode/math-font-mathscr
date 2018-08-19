@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: math-font-mathscr
+# key: mfscr
+# group: math
+# --
+\mathscr{$1}$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: math-font-mathbb
+# key: mfbb
+# group: math
+# --
+\mathbb{$1}$0
