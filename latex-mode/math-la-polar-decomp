@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: math-la-polar-decomp
+# key: mlapd
+# group: math
+# --
+\sqrt{\mathcal{$1}^\star\mathcal{$1}}
