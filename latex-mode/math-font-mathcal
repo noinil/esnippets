@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: math-font-mathcal
+# key: mfcal
+# group: math
+# --
+\mathcal{$1}$0
