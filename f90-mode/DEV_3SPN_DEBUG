@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: DEBUG 3SPN
+# key: CGDEBUG
+# group : GENESIS
+# --
+! ~CG~ 3SPN.2C DNA DEBUG!!!!!!!!!!
+write (*,*) " ================================================================= "
+write (*,*) "  Praesent augue.  Phasellus at dui in ligula mollis ultricies.    "
+write (*,*) "  This is a fucking breaking point.                                "
+write (*,*) " ================================================================= "
+$0
