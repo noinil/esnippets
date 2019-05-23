@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: BP 3SPN
+# key: CGBP
+# group : GENESIS
+# --
+! ~CG~ 3SPN.2C DNA: $1
+$0
