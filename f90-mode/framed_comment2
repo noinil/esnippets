@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: framed comments 2
+# key: fcom2
+# --
+! ${1:$(make-string (string-width yas-text) ?\=)}
+! ${1:Comments}
+! ${1:$(make-string (string-width yas-text) ?\=)}
+$0
