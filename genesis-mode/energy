@@ -4,7 +4,7 @@
 # contributor: Cheng Tan
 # --
 [ENERGY]
-forcefield       = ${1:$$(yas-choose-value '("CHARMM" "AAGO" "CAGO" "KBGO" "AMBER" "GROAMBER" "GROMARTINI"))}
+forcefield       = ${1:$$(yas-choose-value '("CHARMM" "AAGO" "CAGO" "KBGO" "AMBER" "GROAMBER" "GROMARTINI" "AICG2P"))}
 electrostatic    = ${2:$$(yas-choose-value '("CUTOFF" "PME"))}
 CG_DNA_BP_cutoffdist       = ${3:18.0}
 CG_DNA_BP_pairlistdist     = ${4:20.0}
