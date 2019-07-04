@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: input_Charmm
+# key: inpchm
+# contributor: Cheng Tan
+# --
+[INPUT]
+## CHARMM Force Field
+topfile = ${1:sample}.top
+parfile = $1.par
+strfile = $1.str
+psffile = $1.psf
+pdbfile = $1.pdb
+# crdfile  = $1.crd
+# rstfile  = $1.rst
+# reffile  = $1.pdb
+# eef1file = $1.inp
+# modefile = $1.mode

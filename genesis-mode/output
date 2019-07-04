@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: output
+# key: output
+# contributor: Cheng Tan
+# --
+[OUTPUT]
+# dcdfile    = ${1:sample}.dcd
+# dcdvelfile = $1.dcd
+# rstfile    = $1.rst
+# pdbfile    = $1.pdb
+

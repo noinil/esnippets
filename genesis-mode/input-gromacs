@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: input_Gromacs
+# key: inpgro
+# contributor: Cheng Tan
+# --
+[INPUT]
+##  GROMACS Force Field
+grotopfile = ${1:sample}.top
+grocrdfile = $1.gro
+# groreffile = $1.crd

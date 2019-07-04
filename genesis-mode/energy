@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: energy
+# key: ene
+# contributor: Cheng Tan
+# --
+[ENERGY]
+forcefield       = ${1:$$(yas-choose-value '("CHARMM" "AAGO" "CAGO" "KBGO" "AMBER" "GROAMBER" "GROMARTINI"))}
+electrostatic    = ${2:$$(yas-choose-value '("CUTOFF" "PME"))}
+CG_DNA_BP_cutoffdist       = ${3:18.0}
+CG_DNA_BP_pairlistdist     = ${4:20.0}
+CG_DNA_ele_cutoffdist      = ${5:50.0}
+CG_DNA_ele_pairlistdist    = ${6:55.0}
+CG_sol_temperature         = ${7:300.0}
+CG_sol_ionic_strength      = ${8:0.15}
+# switchdist       = 10.0    # switch distance
+# cutoffdist       = 12.0    # cutoff distance
+# pairlistdist     = 13.5    # pair-list distance
+# dielec_const     = 1.0     # dielectric constant
+# vdw_force_switch = NO      
+# vdw_shift        = NO      
+# cmap_pspline     = NO      

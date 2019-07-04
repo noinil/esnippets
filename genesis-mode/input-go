@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: input_Go
+# key: inpgo
+# contributor: Cheng Tan
+# --
+[INPUT]
+##  Go-model
+psffile = ${1:sample}.psf
+gprfile = $1.gpr
+pdbfile = $1.pdb
+crdfile = $1.crd
+rstfile = $1.rst
+reffile = $1.pdb

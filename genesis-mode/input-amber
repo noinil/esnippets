@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: input_Amber
+# key: inpamb
+# contributor: Cheng Tan
+# --
+[INPUT]
+##  AMBER Force Field
+prmtopfile = ${1:sample}.top
+ambcrdfile = $1.crd
+ambreffile = $1.crd
+
+
