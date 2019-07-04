@@ -1,0 +1,28 @@
+# -*- mode: snippet -*-
+# name: dynamics
+# key: dyn
+# contributor: Cheng Tan
+# --
+[ENERGY]
+integrator    = ${1:$$(yas-choose-value '("LEAP" "VVER"))}
+nsteps        = ${2:1000000}
+timestep      = ${3:0.001}
+eneout_period = ${4:10000}
+crdout_period = ${5:10000}
+rstout_period = ${6:10000}
+# velout_period = 0
+# stoptr_period = 10
+# qmsave_period = 0
+# nbupdate_period = 10
+# iseed         = -1
+# initial_time  = 0.0
+# annealing     = NO
+# anneal_period = 0
+# dtemperature  = 0.0
+# verbose       = NO
+# target_md     = no
+# steered_md    = no
+# initial_value  = 0.0
+# final_value    = 0.0
+
+

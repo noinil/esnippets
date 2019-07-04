@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: constraints
+# key: constr
+# contributor: Cheng Tan
+# --
+[CONSTRAINTS]
+rigid_bond    = ${1:NO}
+fast_water    = ${2:YES}
+# shake_iteration = 500
+# shake_tolerance = 1.0e-10
+# water_model     = TIP3
+# hydrogen_mass_upper_bound    = 2.1
+

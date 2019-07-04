@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: restraints
+# key: restraint
+# contributor: Cheng Tan
+# --
+[RESTRAINTS]
+## Example of restraints
+# nfunctions    = 2         # number of functions
+#
+# function1     = POSI      # restraint function type
+# direction1    = ALL       # direction [ALL,X,Y,Z]
+# constant1     = 10.0      # force constant
+# select_index1 = 1         # restrained groups
+#
+# function2     = DIST      # restraint function type
+# constant2     = 10.0 10.0 # force constants
+# reference2    = 5.5 6.0   # references
+# select_index2 = 2 3 4 5   # restrained groups

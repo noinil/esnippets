@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: boundary
+# key: bc
+# contributor: Cheng Tan
+# --
+[BOUNDARY]
+type          = ${1:$$(yas-choose-value '("NOBC" "PBC"))}
+box_size_x    = ${2:999}
+box_size_y    = ${3:999}
+box_size_z    = ${4:999}

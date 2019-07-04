@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: ensemble
+# key: ensemble
+# contributor: Cheng Tan
+# --
+[ENSEMBLE]
+ensemble      = ${1:$$(yas-choose-value '("NVE" "NVT" "NPT" "NPAT" "NPgT"))}
+tpcontrol     = ${2:$$(yas-choose-value '("NO" "BERENDSEN" "BUSSI" "LANGEVIN"))}
+# temperature   = 298.15
+# pressure      = 1.0
+# gamma         = 0.0
+# tau_t         = 5.0
+# tau_p         = 5.0
+# compressibility = 4.63e-5
+# gamma_t       = 1.0
+# gamma_p       = 0.1
+# isotropy      = ${3:$$(yas-choose-value '("ISO" "SEMI-ISO" "ANISO" "XY-FIXED"))}

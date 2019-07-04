@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: selection
+# key: sel
+# contributor: Cheng Tan
+# --
+[SELECTION]
+# group1      = an:CA              # restraint group 1
+# group2      = an:CA and resno:1  # restraint group 2
+# group3      = an:CA and resno:5  # restraint group 3
+# group4      = an:CA and resno:7  # restraint group 4
+# group5      = an:CA and resno:12 # restraint group 5
