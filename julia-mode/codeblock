@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: block
+# key: blk
+# group: control structure
+# --
+begin
+    $0
+end

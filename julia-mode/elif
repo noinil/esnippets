@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: elseif
+# key: elif
+# group: control structure
+# --
+elseif ${1:cond}
+    $0

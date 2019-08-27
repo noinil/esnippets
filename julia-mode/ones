@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: ones
+# key: 1s
+# group: definitions
+# --
+ones(${1:Float64}, ($2, $3))

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: module
+# key: mdl
+# group: definitions
+# --
+module ${1:MyModuleName}
+
+$0
+
+end

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: zeros
+# key: 0s
+# group: definitions
+# --
+zeros(${1:Float64}, ($2, $3))

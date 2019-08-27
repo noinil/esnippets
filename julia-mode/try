@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: try
+# key: try
+# group: control structure
+# --
+try
+    $1
+catch ${2:error}
+    ${3:# clean up}
+end

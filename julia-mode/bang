@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: #!
+# key: #!
+# group: general
+# --
+#!/usr/bin/env julia

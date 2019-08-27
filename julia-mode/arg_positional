@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: arg_positional
+# key: argp
+# group: argparse
+# --
+"$1"
+    help     = "$0"
+    required = true
+    arg_type = ${2:Int}

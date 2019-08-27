@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: main
+# key: main
+# --
+#!/usr/bin/env julia
+
+function main()
+    $0
+end
+
+main()

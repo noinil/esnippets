@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: arg_flag
+# key: argf
+# group: argparse
+# --
+"$1"
+    help     = "$0"
+    action   = ${2::store_true}
