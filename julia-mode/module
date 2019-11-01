@@ -3,8 +3,6 @@
 # key: mdl
 # group: definitions
 # --
-module ${1:MyModuleName}
-
+module ${1:$$(capitalize yas-text)}
 $0
-
 end
