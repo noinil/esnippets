@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: tick parameters
+# key: tickparams
+# group : matplotlib
+# --
+${1:ax}.tick_params(axis='${2:$$(yas-choose-value '("x" "y" "both"))}', direction='${3:$$(yas-choose-value '("in" "out" "inout"))}', length=$4, width=$5, colors='${6:k}')
