@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: adjust subfigure spaces
+# key: subadjust
+# group : matplotlib
+# --
+plt.subplots_adjust(left=${1:0.05}, bottom=${2:0.05}, right=${3:0.95}, top=${4:0.95}, wspace=${5:0.25}, hspace=${6:0.25})
