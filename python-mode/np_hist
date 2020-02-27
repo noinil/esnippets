@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: np
+# key: np
+# group : numpy
+# --
+hist, edge = np.histogram($1, bins=$2, density=${3:$$(yas-choose-value '("True" "False"))})
+hbin = 0.5 * (edge[1:] + edge[:-1])
