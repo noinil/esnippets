@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: np
-# key: np
+# name: np histogram
+# key: np-hist
 # group : numpy
 # --
 hist, edge = np.histogram($1, bins=$2, density=${3:$$(yas-choose-value '("True" "False"))})
