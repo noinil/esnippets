@@ -3,4 +3,4 @@
 # key: figax
 # group : matplotlib
 # --
-${1:fig}, ${2:axes} = plt.subplots(${3:nrow}, ${4:ncol}, figsize=(${5:9}, ${6:5}), constrained_layout=${7:$$(yas-choose-value '("True" "False"))}, sharex=${8:$$(yas-choose-value '("True" "False"))}, sharey=${8:$$(yas-choose-value '("True" "False"))})
+${1:fig}, ${2:axes} = plt.subplots(${3:nrow}, ${4:ncol}, figsize=(${5:9}, ${6:5}), constrained_layout=${7:$$(yas-choose-value '("True" "False"))}, sharex=${8:$$(yas-choose-value '("True" "False"))}, sharey=${9:$$(yas-choose-value '("True" "False"))})
