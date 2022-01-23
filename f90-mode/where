@@ -3,7 +3,6 @@
 # name: where ... end where ...
 # key: where
 # --
-
 where (${1:condition})
   $0
 end where

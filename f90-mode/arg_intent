@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: argument intent(out)
+# key: aio
+# --
+${1:real}, intent(${2:$$(yas-choose-value '("in" "out" "inout"))}) :: $0

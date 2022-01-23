@@ -2,4 +2,4 @@
 # name: real allocatable
 # key: ra
 # --
-real, allocatable :: $0
+real, allocatable, dimension($1) :: $0

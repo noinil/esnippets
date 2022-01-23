@@ -2,4 +2,4 @@
 # name: complex allocatable
 # key: cxa
 # --
-complex, allocatable :: $0
+complex, allocatable, dimension($1) :: $0

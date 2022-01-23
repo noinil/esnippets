@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # contributor: Cheng Tan <noinil@gmail.com>
 # name : write (*,*)
+# key: wt
 # --
 write (${1:*},${2:*}) $0

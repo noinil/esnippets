@@ -2,4 +2,4 @@
 # name: integer allocatable
 # key: ia
 # --
-integer, allocatable :: $0
+integer, allocatable, dimension($1) :: $0
