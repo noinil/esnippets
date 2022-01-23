@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: complex allocatable
-# key: cxa
+# key: complxa
 # --
 complex, allocatable, dimension($1) :: $0

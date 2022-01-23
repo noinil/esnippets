@@ -1,4 +1,5 @@
 # -*- mode: snippet -*-
 # name : character
+# key: char
 # --
 character :: $0

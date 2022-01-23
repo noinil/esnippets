@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # contributor: Cheng Tan <noinil@gmail.com>
-# name : dimension
+# name: dimension
+# key: dim
 # --
 dimension($1) $0

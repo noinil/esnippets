@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # contributor: Cheng Tan <noinil@gmail.com>
-# name : else if
+# name: else if
+# key: elif
 # --
 else if ( ${1:condition} ) then
    $0

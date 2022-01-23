@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: character allocatable
-# key: cha
+# key: chara
 # --
 character, allocatable :: $0

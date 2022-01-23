@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # contributor: Cheng Tan <noinil@gmail.com>
-# name : elsewhere
+# name: elsewhere
+# key: elwhere
 # --
 elsewhere
    $0
