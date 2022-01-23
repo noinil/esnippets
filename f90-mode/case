@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # contributor: Cheng Tan <noinil@gmail.com>
-# name: elsewhere
-# key: elwhere
+# name: case
+# key: case
 # --
-else where ($1)
+case ( ${1:condition} )
    $0

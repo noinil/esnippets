@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: select
+# key: sel
+# --
+select case ($1)
+
+case default
+  $0
+end select
