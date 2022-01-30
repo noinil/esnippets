@@ -3,4 +3,4 @@
 # name: open()
 # key: open
 # --
-open (unit=${1:10}, file=${2:filename}, form='${3:$$(yas-choose-value '("formatted" "unformatted"))}', access='${4:$$(yas-choose-value '("sequential" "direct" "stream"))}' action='${5:$$(yas-choose-value '("read" "write" "readwrite"))}')$0
+open(newunit=${1:10}, file=${2:filename}, form='${3:$$(yas-choose-value '("formatted" "unformatted"))}', access='${4:$$(yas-choose-value '("sequential" "direct" "stream"))}' action='${5:$$(yas-choose-value '("read" "write" "readwrite"))}')$0
