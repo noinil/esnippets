@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: rendering settings
+# key: renderset
+# --
+
+# rendering settings
+
+display cuedensity ${1:0.20}
+display cuemode Exp2
+display shadows on
+display ambientocclusion on
+display aoambient ${2:0.90}
+display aodirect  ${3:0.40}
+$0
