@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: plot errorbar
+# key: plterror
+# group : matplotlib
+# --
+${1:axes}.errorbar(${2:X}, ${3:Y}, yerr=${4:YERR}, ls="${5:-}", c=$6, elinewidth=1.5, ecolor=$6, capsize=5, capthick=1.5, marker="${7:o}", mfc="white", mec=$6, mew=1.5, ms=5)
