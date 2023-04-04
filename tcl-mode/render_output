@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: rendering pictures
+# key: render
+# --
+
+# rendering some pictures
+
+render ${1:TachyonLOptiXInteral} ${2:test.ppm}
+$0
+
