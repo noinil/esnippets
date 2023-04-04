@@ -4,7 +4,15 @@
 # --
 
 # rendering some pictures
+# available options:
+# ------
+# ART Gelato PostScript Raster3D Radiance Rayshade RenderMan
+# snapshot STL Tachyon TachyonInternal TachyonLOptiXInternal
+# TachyonLOptiXInteractive TachyonLOSPRayInternal
+# TachyonLOSPRayInteractive POV3
+# VRML-1 VRML-2 Wavefront X3D X3DOM
+# ------
 
-render ${1:TachyonLOptiXInteral} ${2:test.ppm}
+render ${1:TachyonLOptiXInternal} ${2:test.ppm}
 $0
 
